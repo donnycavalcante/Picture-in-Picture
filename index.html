@@ -4,14 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Picture in Picture</title>
-    <link rel="icon" type="image/png" href="exodux.ico">
+    <link rel="icon" type="image/png" href="favicon.png">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Video -->
-    <video src="Mr_Kitty _After_Dark.mp4" id="video" controls autoplay height="360" width="640"></video>
+    <video id="video" controls height="360" width="640" hidden></video>
+    <!-- Button -->
+    <div class="button-container">
+        <button id="button">START</button>
+    </div>
     <!-- Script -->
     <script src="script.js"></script>
 </body>
-
 </html>
